@@ -97,10 +97,10 @@ Some resources require globally unique names and to minimize the risk of naming 
 Examples:
 
 ```sh
-Subscription ID: cf4579ce-9196-4d1f-8aeb-2d7a41f3b2c6
+Subscription ID: cf4356ce-9196-4d1f-8aeb-2d7a41f3b2c6
 
 S006-2d7a41f3b2c6-log-analytics  # Here '2d7a41f3b2c6' represents the last 8 digits of the subscription ID
-S0062d7a41f3b2c6storage          # Name of storage account does not allow special characters like '-'
+S0062d7a41fgghc6storage          # Name of storage account does not allow special characters like '-'
 ```
 
 ## Service Principals and User Managed Identities
@@ -110,8 +110,8 @@ Service principals and user managed identities should be named with a prefix of 
 Examples:
 
 ```sh
-Omnia-Pipeline-Blueprint-Build-uami
-Omnia-Enforce-ASC
+FF-Pipeline-Blueprint-Build-uami
+DD-Enforce-ASC
 ```
 
 ## GitHub repo and naming of files and folders
