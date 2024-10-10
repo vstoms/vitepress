@@ -59,7 +59,7 @@ OP-Not-Allowed-Resources
 
 ### Role Definitions
 
-Name of custom roles should start with `Omnia` followed by a meaningful description of the role. 
+Name of custom roles should start with `FFT` followed by a meaningful description of the role. 
 
 Examples:
 
@@ -105,7 +105,7 @@ S0062d7a41fgghc6storage          # Name of storage account does not allow specia
 
 ## Service Principals and User Managed Identities
 
-Service principals and user managed identities should be named with a prefix of `Omnia` and a meaningful description of the intended use. The name should use CamelCase and `-` is allowed as a replacement for space. *No spaces allowed in name*.
+Service principals and user managed identities should be named with a prefix of `FFT` and a meaningful description of the intended use. The name should use CamelCase and `-` is allowed as a replacement for space. *No spaces allowed in name*.
 
 Examples:
 
