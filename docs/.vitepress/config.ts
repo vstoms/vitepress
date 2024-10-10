@@ -5,6 +5,9 @@ export default defineConfig({
   title: 'Azure Naming Conventions',
   description: 'Best practices for naming Azure resources',
 
+  // Add this line to set the base for GitHub Pages
+  base: '/your-repo-name/',
+
   themeConfig: {
     logo: '/azure-logo.png',
     nav: [
@@ -24,7 +27,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/your-org/your-repo' },
+      { icon: 'github', link: 'https://github.com/vstoms/vitepress' },
     ],
 
     footer: {
